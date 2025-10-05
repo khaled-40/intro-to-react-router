@@ -65,6 +65,10 @@ let router = createBrowserRouter([
   {
     path: 'app',
     Component: App
+  },
+  {
+    path: '*',
+    element: <h3>Error 404 : Not Found The Route</h3>
   }
 ])
 
